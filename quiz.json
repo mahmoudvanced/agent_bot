@@ -1,0 +1,624 @@
+[
+    {
+        "text": "What is the main purpose of the agent program?",
+        "options": ["To design sensors", "To control the physical architecture", "To map percepts to actions", "To store data"],
+        "correct": "To map percepts to actions"
+    },
+    {
+        "text": "What is an example of a stochastic system?",
+        "options": ["A vending machine giving the correct item.", "Weather forecasting.", "Crossword", "A vending machine malfunctioning."],
+        "correct": "Weather forecasting."
+    },
+    {
+        "text": "In agentset Ordering model, what condition prevents a small turtle from asking a big turtle to decrease its size?",
+        "options": ["If big-turtle is nobody.", "If there are no turtles", "If big-turtle is not blue", "If the size of the big turtle is 5"],
+        "correct": "If big-turtle is nobody."
+    },
+    {
+        "text": "\"set size random-float 2.0\" What is the range of the size attribute for the turtles created in the setup procedure?",
+        "options": ["0 to 2", "0 to 10", "0 to 1", "1 to 2"],
+        "correct": "0 to 2"
+    },
+    {
+        "text": "What defines a problem generator in learning agents?",
+        "options": [
+            "It generates new problems for the agent to explore.",
+            "It refines the agent's performance over time.",
+            "It solves the problem differently instead of optimizing the solution",
+            "It presents optimization"
+        ],
+        "correct": "It generates new problems for the agent to explore."
+    },
+    {
+        "text": "What encoding method is used for the Travelling Salesman problem?",
+        "options": ["Random encoding", "Binary encoding", "Symbolic encoding", "Permutation encoding"],
+        "correct": "Permutation encoding"
+    },
+    {
+        "text": "What does the facexy pxcor pycor command do?",
+        "options": [
+            "Positions turtles at random coordinates",
+            "Directs turtles to face the coordinates of a patch.",
+            "Sets patch color to turtle color",
+            "Links two turtles together"
+        ],
+        "correct": "Directs turtles to face the coordinates of a patch."
+    },
+    {
+        "text": "What role does the critic play in a learning agent?",
+        "options": [
+            "It critiques the agent's ability to solve problems.",
+            "It suggests new actions based on performance.",
+            "It modifies the agent's performance.",
+            "It evaluates the agent's performance."
+        ],
+        "correct": "It evaluates the agent's performance."
+    },
+    {
+        "text": "Swarm Intelligence is inspired by the collective behavior of?",
+        "options": ["Biological organisms", "Organizational hierarchy", "Programming logic", "Individual thought"],
+        "correct": "Biological organisms"
+    },
+    {
+        "text": "Which command changes the color of all patches to black?",
+        "options": [
+            "clear-all",
+            "ask turtles [set color black]",
+            "ask patches [set pcolor black]",
+            "ask patches [set pcolor white]"
+        ],
+        "correct": "ask patches [set pcolor black]"
+    },
+    {
+        "text": "Which of the following is an example of a discrete environment?",
+        "options": ["Cross Word", "Taxi driver", "Autonomous vehicles", "physics simulations"],
+        "correct": "Cross Word"
+    },
+    {
+        "text": "In agent-based modeling, what is the significance of agent heterogeneity?",
+        "options": [
+            "It ensures all agents behave identically.",
+            "It allows agents to have different behaviors and properties.",
+            "It simplifies the model.",
+            "It reduces the complexity of interactions."
+        ],
+        "correct": "It allows agents to have different behaviors and properties."
+    },
+    {
+        "text": "How are directed links different from undirected links in NetLogo?",
+        "options": [
+            "Directed links are created randomly, undirected are manually defined.",
+            "Directed links are one-way, undirected are two-way.",
+            "Directed links change color over time, undirected do not.",
+            "Directed links allow turtles to move, undirected links do not."
+        ],
+        "correct": "Directed links are one-way, undirected are two-way."
+    },
+    {
+        "text": "What does the term \"perception\" refer to in the context of agents?",
+        "options": [
+            "The data received from the environment",
+            "The physical form of the agent",
+            "The actions taken by the agent",
+            "The agent's programming logic"
+        ],
+        "correct": "The data received from the environment"
+    },
+    {
+        "text": "Which of the following commands resets the turtle positions randomly?",
+        "options": [
+            "clear-all",
+            "ask turtles [go random]",
+            "ask patches [setxy random-xcor random-ycor]",
+            "ask turtles [setxy random-xcor random-ycor]"
+        ],
+        "correct": "ask turtles [setxy random-xcor random-ycor]"
+    },
+    {
+        "text": "\"let fast-cars turtles with [ speed > 0.3 ] ask fast-cars [ set size 2 ]\" What does the condition [ speed > 0.3 ] do in the code?",
+        "options": [
+            "selects all turtles.",
+            "sets the size of all turtles.",
+            "It filters turtles based on their speed.",
+            "increases the speed of all turtles."
+        ],
+        "correct": "It filters turtles based on their speed."
+    },
+    {
+        "text": "What is a dynamic environment in AI?",
+        "options": [
+            "An environment that changes as the agent makes decisions.",
+            "The environment is static while the agent plans.",
+            "The agent must anticipate environmental changes.",
+            "The environment and agent remain unchanged."
+        ],
+        "correct": "An environment that changes as the agent makes decisions."
+    },
+    {
+        "text": "What is the focus of Artificial Life?",
+        "options": ["Create simulations", "Solve puzzles", "Understand living systems", "Create quantum particles"],
+        "correct": "Understand living systems"
+    },
+    {
+        "text": "Which of the following is a main application of Quantum Computing?",
+        "options": ["File compression", "Art creation", "Quantum Cryptography", "Internet browsing"],
+        "correct": "Quantum Cryptography"
+    },
+    {
+        "text": "What is a rational agent expected to do?",
+        "options": [
+            "Always choose the same action",
+            "Follow designer instructions without deviation",
+            "Maximize its performance measure based on percept sequences",
+            "Act randomly"
+        ],
+        "correct": "Maximize its performance measure based on percept sequences"
+    },
+    {
+        "text": "What step comes after mutation in the GA cycle?",
+        "options": ["Population refresh", "Fitness test", "Evaluation", "Insertion"],
+        "correct": "Evaluation"
+    },
+    {
+        "text": "What is the function of the pen-down command?",
+        "options": [
+            "Stops turtle movement",
+            "Allows turtles to leave a trail",
+            "Changes patch color",
+            "Deletes all turtles"
+        ],
+        "correct": "Allows turtles to leave a trail"
+    },
+    {
+        "text": "In the Agentset Ordering model, what does declaring turtles-own [ wealth ] achieve?",
+        "options": [
+            "It creates a shared wealth value only accessible to patches.",
+            "Each turtle can have a unique wealth value that can be manipulated individually.",
+            "It defines a global wealth variable that applies to all turtles equally.",
+            "It enables turtles to track patch wealth values in their environment."
+        ],
+        "correct": "Each turtle can have a unique wealth value that can be manipulated individually."
+    },
+    {
+        "text": "Which selection method involves spinning a wheel?",
+        "options": ["Roulette Wheel", "Rank Selection", "Steady State Selection", "Tournament Selection"],
+        "correct": "Roulette Wheel"
+    },
+    {
+        "text": "Which field does Natural Computing NOT draw inspiration from?",
+        "options": ["Chemistry", "Physics", "History", "Biology"],
+        "correct": "History"
+    },
+    {
+        "text": "What is a chromosome in the context of GAs?",
+        "options": ["Individual solution", "A set of chromosomes", "A solution model", "A string of genes"],
+        "correct": "Individual solution"
+    },
+    {
+        "text": "What does the command create-turtles 10 do?",
+        "options": ["Deletes 10 turtles", "Changes the size of turtles to 10", "Creates 10 new turtles", "Moves 10 turtles to a new location"],
+        "correct": "Creates 10 new turtles"
+    },
+    {
+        "text": "What encoding method uses strings of bits?",
+        "options": ["Binary encoding", "Permutation encoding", "Symbolic encoding", "Chromosome encoding"],
+        "correct": "Binary encoding"
+    },
+    {
+        "text": "What is 'gene convergence'?",
+        "options": [
+            "When 95% of genes are similar",
+            "No diversity among genes",
+            "When best fitness is achieved",
+            "All genes are identical"
+        ],
+        "correct": "When 95% of genes are similar"
+    },
+    {
+        "text": "What is the term for a set of chromosomes in a GA?",
+        "options": ["Solution space", "Population", "Chromosome", "Gene pool"],
+        "correct": "Population"
+    },
+    {
+        "text": "In the Fire Model, what does increasing the density affect?",
+        "options": [
+            "The number of links between agents",
+            "The color of patches",
+            "The spread of fire",
+            "The movement of turtles"
+        ],
+        "correct": "The spread of fire"
+    },
+    {
+        "text": "How do you change the shape of a turtle?",
+        "options": [
+            "change shape \"circle\"",
+            "set turtle-shape \"circle\"",
+            "shape \"circle\"",
+            "set shape \"circle\""
+        ],
+        "correct": "set shape \"circle\""
+    },
+    {
+        "text": "What is the name of the process where offspring replace parents?",
+        "options": ["Generational GA", "Elitist GA", "Mutation Selection", "Roulette Wheel Selection"],
+        "correct": "Generational GA"
+    },
+    {
+        "text": "What defines the environment for an agent?",
+        "options": [
+            "The external conditions and factors it interacts with",
+            "The rules it follows",
+            "The actuators",
+            "The internal programming structure"
+        ],
+        "correct": "The external conditions and factors it interacts with"
+    },
+
+    {
+        "text": "Why does a model-based reflex agent need to maintain an internal world model (state)?",
+        "options": [
+            "To make decisions that only depend on the environment's immediate state.",
+            "To handle environments with low uncertainty",
+            "To ignore past percepts and only consider the current percept.",
+            "To predict future states and select actions based on previous experiences."
+        ],
+        "correct": "To predict future states and select actions based on previous experiences."
+    },
+    {
+        "text": "What is the main objective of a utility-based agent?",
+        "options": [
+            "To act based only on current percepts without any long-term considerations.",
+            "To select actions that minimize resource consumption.",
+            "To randomly choose actions without considering happiness.",
+            "To choose actions that maximize its expected happiness or utility."
+        ],
+        "correct": "To choose actions that maximize its expected happiness or utility."
+    },
+    {
+        "text": "What is a goal-based agent required to have in order to make decisions?",
+        "options": [
+            "It acts randomly without considering future outcomes.",
+            "It needs a history of all past actions.",
+            "It requires a model of the world but no future planning.",
+            "It needs information about future events and a defined goal."
+        ],
+        "correct": "It needs information about future events and a defined goal."
+    },
+    {
+        "text": "In which of the following situations would a utility-based agent perform better than a goal-based agent?",
+        "options": [
+            "When the environment is simple and deterministic",
+            "When there is a need to consider various trade-offs and select actions that maximize long-term happiness or utility",
+            "When the agent needs to strictly follow a predefined goal.",
+            "When actions are always straightforward and don't involve uncertainty."
+        ],
+        "correct": "When there is a need to consider various trade-offs and select actions that maximize long-term happiness or utility"
+    },
+    {
+        "text": "What is one limitation of a simple reflex agent?",
+        "options": [
+            "It requires significant memory to store past actions.",
+            "It can perform tasks requiring deep learning",
+            "It can only act based on the current percept and cannot adapt to past experiences.",
+            "It can predict future percepts."
+        ],
+        "correct": "It can only act based on the current percept and cannot adapt to past experiences."
+    },
+    {
+        "text": "How does a goal-based agent consider future events when choosing actions?",
+        "options": [
+            "It only focuses on the current percept and ignores future outcomes.",
+            "It tries to predict the consequences of actions and selects those that lead closer to its goal.",
+            "It makes decisions randomly without considering any consequences",
+            "It uses predefined actions without any future considerations."
+        ],
+        "correct": "It tries to predict the consequences of actions and selects those that lead closer to its goal."
+    },
+    {
+        "text": "Which of the following best describes the decision-making process of a simple reflex agent?",
+        "options": [
+            "It uses machine learning techniques to predict future states.",
+            "It uses a decision tree based on past percepts.",
+            "It chooses actions using complex planning algorithms.",
+            "It selects actions solely based on the current percept."
+        ],
+        "correct": "It selects actions solely based on the current percept."
+    },
+    {
+        "text": "How does a model-based reflex agent decide on its actions?",
+        "options": [
+            "It chooses actions only based on the current percept.",
+            "It chooses actions based on its internal model of the world, which includes past and current percepts.",
+            "It chooses actions randomly.",
+            "It relies on a fixed set of predefined actions, regardless of the environment."
+        ],
+        "correct": "It chooses actions based on its internal model of the world, which includes past and current percepts."
+    },
+    {
+        "text": "Which of the following is not a main component of a learning agent?",
+        "options": ["Performance element", "Learning element", "Critic", "Sensor element"],
+        "correct": "Sensor element"
+    },
+    {
+        "text": "What distinguishes a goal-based agent from other types of agents?",
+        "options": [
+            "It operates with no goals or objectives.",
+            "It chooses actions according to a specific goal and considers future events.",
+            "It ignores future events and actions.",
+            "It chooses actions based only on current percepts."
+        ],
+        "correct": "It chooses actions according to a specific goal and considers future events."
+    },
+    {
+        "text": "What is the key difference between a simple reflex agent and a model-based reflex agent?",
+        "options": [
+            "A model-based reflex agent ignores past percepts, while a simple reflex agent stores them",
+            "There is no difference; both use the same decision-making process.",
+            "A model-based reflex agent makes decisions based on an internal model of the world, while a simple reflex agent only considers the current percept.",
+            "A model-based reflex agent does not need memory, while a simple reflex agent does."
+        ],
+        "correct": "A model-based reflex agent makes decisions based on an internal model of the world, while a simple reflex agent only considers the current percept."
+    },
+    {
+        "text": "What is the main characteristic of a simple reflex agent?",
+        "options": [
+            "It chooses actions only based on the current percept.",
+            "It uses complex reasoning to choose actions.",
+            "It makes decisions based on the entire history of its percepts.",
+            "It stores all past actions for future decisions."
+        ],
+        "correct": "It chooses actions only based on the current percept."
+    },
+    {
+        "text": "Does a simple reflex agent have memory of past percepts?",
+        "options": [
+            "It only remembers the last percept",
+            "No, it ignores percept history and has no memory.",
+            "Yes, it remembers all past actions and percepts.",
+            "It stores percepts for a limited time."
+        ],
+        "correct": "No, it ignores percept history and has no memory."
+    },
+    {
+        "text": "Which of the following is a typical utility that a utility-based agent might aim to maximize?",
+        "options": [
+            "The cost of each action it takes.",
+            "The number of actions it performs",
+            "Its overall satisfaction or happiness based on its choices.",
+            "The number of percepts it receives."
+        ],
+        "correct": "Its overall satisfaction or happiness based on its choices."
+    },
+    {
+        "text": "What distinguishes a utility-based agent from a goal-based agent?",
+        "options": [
+            "A goal-based agent always acts randomly, whereas a utility-based agent considers future events.",
+            "A goal-based agent aims to reach a specific goal, while a utility-based agent chooses actions based on maximizing overall satisfaction or utility.",
+            "A utility-based agent only works in environments with no uncertainty.",
+            "A utility-based agent does not consider happiness or utility."
+        ],
+        "correct": "A goal-based agent aims to reach a specific goal, while a utility-based agent chooses actions based on maximizing overall satisfaction or utility."
+    },
+    {
+        "text": "In what type of environment would a model-based reflex agent be more effective than a simple reflex agent?",
+        "options": [
+            "An environment that has no need for internal models of the world",
+            "An environment that is fully observable and does not require memory",
+            "An environment where actions are completely determined by the current percept.",
+            "An environment where the agent's actions depend on both past experiences and current percepts."
+        ],
+        "correct": "An environment where the agent's actions depend on both past experiences and current percepts."
+    },
+    {
+        "text": "What is required for a model-based reflex agent to function effectively?",
+        "options": [
+            "The agent needs to maintain an internal world model or state.",
+            "The agent needs a complex memory of past actions.",
+            "The agent needs to rely on external sources for decision-making.",
+            "The agent needs to perceive the environment continuously."
+        ],
+        "correct": "The agent needs to maintain an internal world model or state."
+    },
+    {
+        "text": "In what type of environment would a goal-based agent be most useful?",
+        "options": [
+            "Environments that require long-term planning and decision-making based on goals.",
+            "Environments that do not require any planning or goals.",
+            "Environments where the agent does not need to consider future consequences.",
+            "Environments where actions are determined purely by current percepts."
+        ],
+        "correct": "Environments that require long-term planning and decision-making based on goals."
+    },
+    {
+        "text": "In what type of environment would a simple reflex agent be most effective?",
+        "options": [
+            "Environments that require interaction with multiple agents",
+            "Environments where the current percept directly determines the correct action",
+            "Environments that require long-term planning and memory",
+            "Complex environments with high uncertainty"
+        ],
+        "correct": "Environments where the current percept directly determines the correct action"
+    },
+    {
+        "text": "How do utility-based agents evaluate their actions?",
+        "options": [
+            "They evaluate actions based on random selection",
+            "They evaluate actions based on how much they increase the agent's expected happiness or utility",
+            "They base their decisions solely on the current state",
+            "They act based on a fixed set of predefined behaviors."
+        ],
+        "correct": "They evaluate actions based on how much they increase the agent's expected happiness or utility"
+    },
+
+    {
+        "text": "In non-deterministic environments, does the change in the world state depend only on the current state and the agent's action?",
+        "options": [
+            "No, it is completely deterministic and predictable.",
+            "Yes, but with perfect knowledge of all possible outcomes",
+            "No, the change in world state cannot be predicted or determined.",
+            "Yes, it depends only on the current state and agent's action."
+        ],
+        "correct": "No, the change in world state cannot be predicted or determined."
+    },
+    {
+        "text": "If the choice of the current action depends on previous actions, what type of environment is it likely to be?",
+        "options": ["Non-sequential", "Episodic", "Deterministic", "Sequential"],
+        "correct": "Sequential"
+    },
+    {
+        "text": "Which of the following is not an example of a sequential environment?",
+        "options": ["Part picking robot", "Backgammon", "Cross Word", "Taxi Driver"],
+        "correct": "Part picking robot"
+    },
+    {
+        "text": "What is the main characteristic of a dynamic environment?",
+        "options": [
+            "It does not change while the agent is deliberating",
+            "It remains unchanged regardless of the agent's actions.",
+            "It changes during the agent's deliberation.",
+            "It only changes after the agent takes an action."
+        ],
+        "correct": "It changes during the agent's deliberation."
+    },
+    {
+        "text": "In which type of environment do changes occur while the agent is deliberating on what to do?",
+        "options": ["Episodic environment", "Static environment", "Dynamic environment", "Sequential environment"],
+        "correct": "Dynamic environment"
+    },
+    {
+        "text": "What is the characteristic of continuous environments in terms of percepts and actions?",
+        "options": [
+            "They are restricted to only binary options.",
+            "They have distinct and clearly defined percepts and actions.",
+            "They have a limited number of possibilities.",
+            "They have a range of values with infinite or continuous possibilities"
+        ],
+        "correct": "They have a range of values with infinite or continuous possibilities"
+    },
+    {
+        "text": "In non-episodic environments, is the choice of the current action dependent on previous actions?",
+        "options": [
+            "Yes, the current action is dependent on previous actions.",
+            "The current action depends only on the environment's state, not on previous actions.",
+            "The agent has no control over its actions.",
+            "No, the current action is independent of previous actions."
+        ],
+        "correct": "Yes, the current action is dependent on previous actions."
+    },
+    {
+        "text": "Does the agent always have perfect or full information when making decisions about its actions?",
+        "options": [
+            "The agent only relies on external information",
+            "No, the agent may not have perfect or full information",
+            "The agent has full information but cannot act on it",
+            "Yes, the agent always has full information"
+        ],
+        "correct": "No, the agent may not have perfect or full information"
+    },
+    {
+        "text": "What does an agent require to choose its actions?",
+        "options": [
+            "Knowledge about past actions only",
+            "Perfect or full information",
+            "Information from its sensors",
+            "Information about other agents"
+        ],
+        "correct": "Information from its sensors"
+    },
+    {
+        "text": "Which of the following environments would be considered continuous?",
+        "options": [
+            "A decision tree with discrete outcomes",
+            "A binary classifier system with only two outcome",
+            "A system where actions and percepts can take on a wide range of values, such as speed or distance",
+            "A game of tic-tac-toe"
+        ],
+        "correct": "A system where actions and percepts can take on a wide range of values, such as speed or distance"
+    },
+    {
+        "text": "In which type of environment does the world not change while the agent is making decisions?",
+        "options": ["Non-deterministic environment", "Non-episodic environment", "Static environment", "Dynamic environment"],
+        "correct": "Static environment"
+    },
+    {
+        "text": "Which of the following is an example of a fully observable system?",
+        "options": [
+            "A robot navigating through an unknown environment",
+            "A car driving autonomously without any sensors",
+            "A security system with cameras in every corner of a building",
+            "A doctor diagnosing a patient without all the necessary test results"
+        ],
+        "correct": "A security system with cameras in every corner of a building"
+    },
+    {
+        "text": "What does an agent need to do in non-episodic environments when making decisions?",
+        "options": [
+            "The agent doesn't need to think about previous or future actions.",
+            "The agent can act randomly without considering future consequences.",
+            "The agent only needs to consider the current state and act accordingly.",
+            "The agent has to plan ahead because the current choice will affect future actions."
+        ],
+        "correct": "The agent has to plan ahead because the current choice will affect future actions."
+    },
+    {
+        "text": "What is an agent called when it operates by itself in an environment?",
+        "options": ["Single-agent system", "Cooperative agent", "Independent agent", "Multi-agent system"],
+        "correct": "Single-agent system"
+    },
+    {
+        "text": "What do we call a system where many agents work together to achieve a common goal?",
+        "options": ["Multi-agent system", "Static system", "Single-agent system", "Independent system"],
+        "correct": "Multi-agent system"
+    },
+    {
+        "text": "Which of the following describes a discrete environment?",
+        "options": [
+            "An environment where percepts and actions change randomly",
+            "An environment with a continuous range of values for percepts and actions",
+            "An environment where actions and percepts are limited to a fixed set of distinct and clearly defined options",
+            "An environment with infinite possible actions and percepts"
+        ],
+        "correct": "An environment where actions and percepts are limited to a fixed set of distinct and clearly defined options"
+    },
+    {
+        "text": "Which of the following is an example of a partially observable system?",
+        "options": [
+            "A satellite monitoring weather patterns from space",
+            "A doctor diagnosing a patient with all necessary test results",
+            "A security system with cameras in every corner of a building",
+            "A doctor diagnosing a patient without all the necessary test results"
+        ],
+        "correct": "A doctor diagnosing a patient without all the necessary test results"
+    },
+    {
+        "text": "In a discrete environment, how are the percepts and actions defined?",
+        "options": [
+            "A wide range of continuous values",
+            "A limited number of distinct and clearly defined values",
+            "A random set of percepts and actions",
+            "An infinite range of possibilities"
+        ],
+        "correct": "A limited number of distinct and clearly defined values"
+    },
+    {
+        "text": "Which of the following is an example of a discrete environment?",
+        "options": [
+            "A car driving along a road with continuous velocity and position",
+            "A robot moving in continuous space",
+            "A chess game where the possible moves are distinct and limited",
+            "Measuring temperature continuously"
+        ],
+        "correct": "A chess game where the possible moves are distinct and limited"
+    },
+    {
+        "text": "What is a characteristic of static environments?",
+        "options": [
+            "They are always non-deterministic.",
+            "They only change when the agent takes an action.",
+            "They do not change while the agent is deliberating over what to do",
+            "They change continuously while the agent is deliberating"
+        ],
+        "correct": "They do not change while the agent is deliberating over what to do"
+    }
+]
