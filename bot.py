@@ -214,7 +214,7 @@ async def show_leaderboard(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     """Start the bot"""
-    app = Application.builder().token("7958157998:AAGH8JWrq7_IhTKCHOyvVnr7GHJU54CtfkA").build()
+    app = Application.builder().token("7469506162:AAHX5JtEE1WMyxIbz--utvEsijtrMNiZ4P8").build()
     
     # Add handlers
     app.add_handler(CommandHandler("start", start))
